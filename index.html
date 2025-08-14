@@ -28,7 +28,7 @@
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skillset">SKILLSET</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT&nbspME</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
                         </li>
@@ -53,51 +53,101 @@
                     <div class="divider-custom-line bg-primary "></div>
                 </div>
                 <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Haunted Race container-->
-                    <div class="container">
-                        <div class="text-center">
-                            <h2>Haunted Race - Unity - Google Play - Firebase</h2>
+                <div class="row justify-content-center">   
+                    <!-- Haunted Race container-->                        
+                    <div class="text-center" style="background-color: bg-primary;margin-bottom: 20px;">
+                        <h1>Haunted Race <i class="fas fa-ghost"></i></h1>
+                        <h2>Unity - Google Play - Firebase</h2>
+                    </div>
+                    <div class="row">
+                        <video class="d-block w-100" controls loop id="VideoHauntedRace" poster="assets/img/portadas/hr_portada.jpg">
+                            <source src="assets/videos/hauntedRace.mp4" type="video/mp4" alt="First slide">
+                        </video> 
+                        <p class="pre-wrap lead text-secondary">
+👻 Haunted Race is a mobile game I developed and published for Android devices. It’s an infinite runner where a ghost races through a procedurally generated castle, dodging enemies and collecting perks along the way.
+
+📱 The gameplay is designed specifically for touchscreen controls.
+
+🧩 Each run is unique thanks to random generation of maps, enemies, and power-ups.
+
+🛠️ Haunted Race is a fully finished product, published on the Google Play Store to gain hands-on experience with the entire release pipeline. Aside from sound effects, all assets—sprites, animations, code, UI, and systems—were created from scratch. Key features include:
+
+-Scene transitions and sound management
+-Local data storage
+-Touchscreen input handling
+-Animation systems
+-Post-launch patching and bug fixes
+
+☁️ One of the most important features is online data saving using Firebase:
+
+- Players can submit their best score after each run.
+- The game checks if the score qualifies for the top 100 global leaderboard.
+- If it does, the lowest score is removed and replaced with the new one.
+- Players can view their personal best and the current top 100 rankings from the main menu.
+
+Haunted Race was published on the Google Play Store to gain experience with a real mobile deployment and post-launch updates.
+                        </p>
                         </div>
-                        <div class="row">                           
-                            <!--<div class="col-md-6 mb-1">                                                 
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="1280" height="721" src="https://www.youtube.com/embed/eLXaSqPoUfI" title="Begin By Letting Go" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </div>                                
-                            </div>
-                            <div class="col-md-6 mb-1">-->
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                    <div class="carousel-inner">                                
-                                        <div class="carousel-item active">
-                                            <img class="d-block w-100" src="assets/img/portfolio/HRingame.jpg" alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="assets/img/portfolio/HRmenu.jpg" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block w-100" src="assets/img/portfolio/HRranking.jpg" alt="Third slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                <p class="pre-wrap lead text-secondary">
-You are a ghost trying to dodge all possible dangers in the castle and trying to get as far as possible with the help of your skill and the tools you collect during the run.</p>
-                                </div>
-                                
-                            <!--</div>-->  
-                        </div><!--END Haunted Race Row-->  
-                        <div class="text-center">
-                            <!--<a class="btn btn-primary fa-brands fa-google-play mb-3"  target="_blank" href="https://play.google.com/store/apps/details?id=com.RasbodGames.LongDrive" role="button"> Download Haunted Race APK</a>-->
-                            <a class="btn btn-primary fa-brands fa-android mb-3" href="assets/HauntedRace.apk" download="HauntedRace.apk" target="_blank" class="btn btn-secondary font-weight-bold"> Download Haunted Race APK</a>
+                    <div class="text-center">
+                        <a class="btn btn-primary fa-brands fa-android mb-3" href="assets/games/HauntedRace.apk" download="HauntedRace.apk" target="_blank" class="btn btn-secondary font-weight-bold"> Download Haunted Race APK</a>
+                    </div>
+                    <!-- END Haunted Race container END-->  
+
+                    <!-- The wizard's labyrinth container-->                        
+                    <div class="text-center" style="margin-top: 40px;margin-bottom: 20px;">
+                        <h1>The wizard's labyrinth <i class="fas fa-magic"></i></h1>
+                        <h2>Unity - Windows - Random map creation module</h2>
+                    </div>
+                    <div class="row">
+                        <video class="d-block w-100" controls loop id="VideoDoomRogueLike" poster="assets/img/portadas/twl_portada.jpg">
+                            <source src="assets/videos/DoomRogueLike.mp4" type="video/mp4" alt="First slide">
+                        </video> 
+                        <p class="pre-wrap lead text-secondary">
+🎮 The Wizards' Labyrinth is a game I developed in Unity, centered around navigating procedurally generated labyrinths. The player must find the exit while avoiding enemies that use NavMesh for intelligent pathfinding and obstacle avoidance.
+
+🧩 The core feature of this project is a random map generation module, which I designed as a standalone system that can be easily integrated into other Unity projects. This module:
+
+- Creates unique labyrinth layouts for every playthrough.
+- Automatically places enemies and key elements without spatial conflicts.
+- Guarantees that a valid path to the exit always exists.
+
+This project demonstrates my ability to build reusable systems, work with procedural content generation, and implement AI-driven navigation in dynamic environments.
+                        </p>
                         </div>
-                    </div><!--END Haunted Race container-->
-                </div><!-- END Portfolio Grid Items-->
+                    <div class="text-center">
+                        <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/twl_Game.zip" download="twl_Game.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download The wizard's labyrinth Game</a>
+                    </div>
+                    <!-- END The wizard's labyrinth END-->  
+
+                    <!-- The APathfinding container-->                        
+                    <div class="text-center" style="margin-top: 40px;margin-bottom: 20px;">
+                        <h1>Triangle Strategy Grid Movement <i class="fa-solid fa-chart-diagram"></i></h1>
+                        <h2>Unity - Windows - A* Pathfinding implementation for movement</h2>
+                    </div>
+                    <div class="row">
+                        <video class="d-block w-100" controls loop id="VideoApath" poster="assets/img/portadas/aPath_portada.jpg">
+                            <source src="assets/videos/aPath.mp4" type="video/mp4" alt="First slide">
+                        </video> 
+                        <p class="pre-wrap lead text-secondary">
+🧠 While playing Triangle Strategy on the Nintendo Switch, I was inspired by its tactical depth and decided to recreate some of its core mechanics in Unity—specifically its grid-based movement system.
+
+🔍 To achieve this, I implemented the A search algorithm* from scratch. This algorithm calculates the shortest path between two points on a graph, making it ideal for turn-based movement across a grid.
+
+🧪 The result is a proof of concept in Unity where:
+
+- Each unit has a movement value that determines how many nodes it can traverse per turn.
+- Reachable cells are highlighted in pink, based on the unit’s position and the A* pathfinding logic.
+- A simple turn-based and attack system adds functionality and demonstrates the concept in action.
+
+The proof of concept showcases my ability to translate complex gameplay mechanics into functional prototypes, as well as my understanding of pathfinding algorithms and turn-based systems.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/aPath.zip" download="aPath.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download Triangle Strategy Proof of Concept</a>
+                    </div>
+                    <!-- END APathfinding  END--> 
+                </div>                               
             </div>
         </section>
         <section class="page-section bg-primary text-white mb-0" id="experience">
@@ -112,7 +162,8 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                     <div class="divider-custom-icon"><i class="fa-sharp fa-solid fa-briefcase"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <p class="pre-wrap lead text-white text-justify">More than 5 years of professional experience in object-oriented programming languages. In these years I have also carried out development analysis tasks, time estimates, direct contact with the client, teaching newer developers and many other tasks. More detailed on LinkedIn or in the CV that can be downloaded below.</p>
+                <p class="pre-wrap lead text-white text-justify">Software developer with 8+ years optimizing full-stack solutions, Salesforce development, and testing automation. Spearheaded improvements in QA workflows, increasing efficiency by 75%. Skilled at working in agile environments and fully proficient in English, with a strong focus on process improvement, software quality, and user experience.
+                    </p>
                 <!-- Experience Section Content-->
                 <div class="row">
                     <div class="col-lg-12 ml-auto text-center">                        
@@ -137,7 +188,7 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="assets/Pablo Bordas Garcia - CV .pdf" download="Pablo Bordas Garcia - CV" target="_blank" class="btn btn-secondary font-weight-bold">Download CV</a>
+                    <a href="assets/Pablo Bordas Garcia - CV.pdf" download="Pablo Bordas Garcia - CV" target="_blank" class="btn btn-secondary font-weight-bold">Download CV</a>
                 </div>
             </div>
         </section>
@@ -159,7 +210,7 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                         <div class="text-center">
                             <h3 class="page-section-heading d-inline-block text-white">Languages</h3>
                         </div>
-                        <p class="pre-wrap lead text-white text-justify">Right now focused on being the best on C++. As a professional, extensive experience working with the Java, JavaScript, C#, Apex (Salesforce) and HTML5 languages. Sometimes it has also been necessary to work with Visual Basic or C++ for small projects.</p>
+                        <p class="pre-wrap lead text-white text-justify">Right now focused on being the best on C#. As a professional, extensive experience working with the Java, JavaScript, C#, Apex (Salesforce) and HTML5 languages. Sometimes it has also been necessary to work with Visual Basic or C++ for small projects.</p>
                         <div class="text-center">
                             <img src="assets/img/icons/c-.png" width="60">
                             <img src="assets/img/icons/c-sharp.png" width="60">
@@ -174,7 +225,7 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                         <div class="text-center">
                             <h3 class="page-section-heading d-inline-block text-white">Game Engines</h3>
                         </div>
-                        <p class="pre-wrap lead text-white text-justify">All efforts are currently focused on Unreal Engine 5 to find work. Strong skills and experience with Unity and Game Maker.</p>
+                        <p class="pre-wrap lead text-white text-justify">All efforts are currently focused on Unity to find work. Strong skills and experience with Unreal and Game Maker.</p>
                         <div class="text-center">
                             <img src="assets/img/icons/unity.png" width="60">
                             <img src="assets/img/icons/unreal.png" width="60">
@@ -254,14 +305,17 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                     <div class="divider-custom-line bg-primary"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
+                <div class="row ">
                     <div class="col-lg-6">
                         <div class="limit">
-                            <img src="assets/img/snowpablo.png" class="justify-content-center">
+                            <img src="assets/img/bikepablo_3.png">
                         </div>
                     </div>
                     <div class="col-lg-6 mr-auto justify-content-center">
-                        <p class="pre-wrap lead text-secondary text-justify">Hi, I´m Pablo Bordas and I´m looking for a Game Developer Job. I was born in 1994 in Xativa, Spain, I have a degree in Computer Science from the UPV (Universidad Politécnica de Valencia). Since I played Darks Souls 1 at the time, I have been interested in being able to create a game that transmits to me the same thing that game did at the time. I play all kinds of games, FPS, MOBAs, ARPGs, MMORPGs, Card Games, Roguelike, City Building, etc; you can go and check what I´m playing recently on my steam profile (link in "Around the web" at the bottom of the page). In my free time, I like to going out with my mountain bike, train in the gym and when it is snowy season I am practicing snowboarding and skiing.</p>
+                        <p class="pre-wrap lead text-secondary text-justify">🎮 Hi, I'm Pablo Bordas, a passionate game developer currently seeking opportunities in the industry. Ever since I played Dark Souls for the first time, I've been driven to create games that evoke the same depth and emotion it gave me. I enjoy exploring all kinds of video game genres—FPS, you can check out what I’ve been playing lately on my Steam profile (link in "Around the Web" below).
+
+🚴‍♂️ Outside of gaming, I enjoy staying active through sports like biking, working out at the gym, and snowboarding and skiing during the winter season.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -308,7 +362,7 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
                     <!-- Footer Location-->
                     <div class="col-lg-6 mb-5 mb-lg-0">
                         <h4 class="mb-4">LOCATION</h4>
-                        <p class="pre-wrap lead mb-0">Spain , Valencia</p>
+                        <p class="pre-wrap lead mb-0">Valencia, Spain</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-6 mb-5 mb-lg-0">
@@ -329,8 +383,8 @@ You are a ghost trying to dodge all possible dangers in the castle and trying to
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
+        <!-- <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>-->
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
