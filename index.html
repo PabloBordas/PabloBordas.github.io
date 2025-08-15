@@ -58,11 +58,12 @@
                     <div class="text-center" style="background-color: bg-primary;margin-bottom: 20px;">
                         <h1>Haunted Race <i class="fas fa-ghost"></i></h1>
                         <h2>Unity - Google Play - Firebase</h2>
-                    </div>
-                    <div class="row">
-                        <iframe width="1250" height="703" src="https://www.youtube.com/embed/XLfM8rvZ2Co" title="Haunted Race - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p class="pre-wrap lead text-secondary">
-👻 Haunted Race is a mobile game I developed and published for Android devices. It’s an infinite runner where a ghost races through a procedurally generated castle, dodging enemies and collecting perks along the way.
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/XLfM8rvZ2Co" title="Haunted Race - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>                      
+                        <p class="text-justify pre-wrap lead text-secondary">
+👻 Haunted Race is a mobile game I developed and published for Android devices. It’s an infinite runner where a ghost races through a procedurally generated castle, dodging enemies and collecting perks along the way.                   
 
 📱 The gameplay is designed specifically for touchscreen controls.
 
@@ -76,29 +77,23 @@
 -Animation systems
 -Post-launch patching and bug fixes
 
-☁️ One of the most important features is online data saving using Firebase:
+☁️ One of the most important features is online data saving using Firebase. The game performs CRUD operations on a cloud database through secure endpoints. It manages a global leaderboard of the top 100 scores, automatically updating it when a player achieves a new high score. Players can view their personal best and the top 100 directly from the Ranking Section at the main menu.
 
-- Players can submit their best score after each run.
-- The game checks if the score qualifies for the top 100 global leaderboard.
-- If it does, the lowest score is removed and replaced with the new one.
-- Players can view their personal best and the current top 100 rankings from the main menu.
-
-Haunted Race was published on the Google Play Store to gain experience with a real mobile deployment and post-launch updates.
-                        </p>
+Haunted Race was published on the Google Play Store to gain experience with a real mobile deployment and post-launch updates.</p>
+                        <div class="text-center"> 
+                            <a class="btn btn-primary fa-brands fa-android mb-3" href="assets/games/HauntedRace.apk" download="HauntedRace.apk" target="_blank" class="btn btn-secondary font-weight-bold"> Download Haunted Race APK</a>
                         </div>
-                    <div class="text-center">
-                        <a class="btn btn-primary fa-brands fa-android mb-3" href="assets/games/HauntedRace.apk" download="HauntedRace.apk" target="_blank" class="btn btn-secondary font-weight-bold"> Download Haunted Race APK</a>
                     </div>
                     <!-- END Haunted Race container END-->  
-
                     <!-- The wizard's labyrinth container-->                        
                     <div class="text-center" style="margin-top: 40px;margin-bottom: 20px;">
-                        <h1>The wizard's labyrinth <i class="fas fa-magic"></i></h1>
+                        <h1>The Wizard's Labyrinth <i class="fas fa-magic"></i></h1>
                         <h2>Unity - Windows - Random map creation module</h2>
-                    </div>
-                    <div class="row">
-                        <iframe width="1250" height="703" src="https://www.youtube.com/embed/jQABH3RRAJM" title="The wizard&#39;s labyrinth - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p class="pre-wrap lead text-secondary">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/jQABH3RRAJM" title="The Wizard&#39;s Labyrinth - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                        </div>                        
+                        <p class="text-justify pre-wrap lead text-secondary">
 🎮 The Wizards' Labyrinth is a game I developed in Unity, centered around navigating procedurally generated labyrinths. The player must find the exit while avoiding enemies that use NavMesh for intelligent pathfinding and obstacle avoidance.
 
 🧩 The core feature of this project is a random map generation module, which I designed as a standalone system that can be easily integrated into other Unity projects. This module:
@@ -107,11 +102,10 @@ Haunted Race was published on the Google Play Store to gain experience with a re
 - Automatically places enemies and key elements without spatial conflicts.
 - Guarantees that a valid path to the exit always exists.
 
-This project demonstrates my ability to build reusable systems, work with procedural content generation, and implement AI-driven navigation in dynamic environments.
-                        </p>
+This project demonstrates my ability to build reusable systems, work with procedural content generation, and implement AI-driven navigation in dynamic environments.</p>                        
+                        <div class="text-center">
+                            <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/twl_Game.zip" download="twl_Game.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download The wizard's labyrinth Game</a>
                         </div>
-                    <div class="text-center">
-                        <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/twl_Game.zip" download="twl_Game.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download The wizard's labyrinth Game</a>
                     </div>
                     <!-- END The wizard's labyrinth END-->  
 
@@ -119,9 +113,10 @@ This project demonstrates my ability to build reusable systems, work with proced
                     <div class="text-center" style="margin-top: 40px;margin-bottom: 20px;">
                         <h1>Triangle Strategy Grid Movement <i class="fa-solid fa-chart-diagram"></i></h1>
                         <h2>Unity - Windows - A* Pathfinding implementation for movement</h2>
-                    </div>
-                    <div class="row">                        
-<iframe width="1250" height="703" src="https://www.youtube.com/embed/w5YgB9etPog" title="Triangle Strategy Grid Movement - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                        <p class="pre-wrap lead text-secondary">
+                        <div class="video-container">                       
+                            <iframe src="https://www.youtube.com/embed/w5YgB9etPog" title="Triangle Strategy Grid Movement - Pablo Bordas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div> 
+                        <p class="text-justify pre-wrap lead text-secondary">
 🧠 While playing Triangle Strategy on the Nintendo Switch, I was inspired by its tactical depth and decided to recreate some of its core mechanics in Unity—specifically its grid-based movement system.
 
 🔍 To achieve this, I implemented the A search algorithm* from scratch. This algorithm calculates the shortest path between two points on a graph, making it ideal for turn-based movement across a grid.
@@ -132,12 +127,10 @@ This project demonstrates my ability to build reusable systems, work with proced
 - Reachable cells are highlighted in pink, based on the unit’s position and the A* pathfinding logic.
 - A simple turn-based and attack system adds functionality and demonstrates the concept in action.
 
-The proof of concept showcases my ability to translate complex gameplay mechanics into functional prototypes, as well as my understanding of pathfinding algorithms and turn-based systems.
-                        </p>
+The proof of concept showcases my ability to translate complex gameplay mechanics into functional prototypes, as well as my understanding of pathfinding algorithms and turn-based systems.</p>
+                        <div class="text-center">
+                            <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/aPath.zip" download="aPath.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download Triangle Strategy Proof of Concept</a>
                         </div>
-                    </div>
-                    <div class="text-center">
-                        <a class="btn btn-primary fa-brands fa-windows mb-3" href="assets/games/aPath.zip" download="aPath.zip" target="_blank" class="btn btn-secondary font-weight-bold"> Download Triangle Strategy Proof of Concept</a>
                     </div>
                     <!-- END APathfinding  END--> 
                 </div>                               
@@ -240,7 +233,7 @@ The proof of concept showcases my ability to translate complex gameplay mechanic
                         <div class="text-center">
                             <h3 class="page-section-heading d-inline-block text-white">Database</h3>
                         </div>
-                        <p class="pre-wrap lead text-white text-justify">For the majority of the professional experience, used the NoSQL database Oracle Databases, but also have a bit of experience using SQL databases too.</p>
+                        <p class="pre-wrap lead text-white text-justify">For the majority of the professional experience, used the NoSQL database Oracle Databases, but also have experience using SQL databases too.</p>
                         <div class="text-center">
                             <img src="assets/img/icons/nosql.png" width="120">
                         </div>
@@ -395,4 +388,18 @@ The proof of concept showcases my ability to translate complex gameplay mechanic
        width: 100%;
        height: 100%;
      }
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    }
+    .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
  </style>
